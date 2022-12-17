@@ -1,33 +1,4 @@
-Sample Input/Output 1
-
-INPUT:
-ADD_ITEM TSHIRT 2
-ADD_ITEM NOTEBOOK 1
-PRINT_BILL
-
-OUTPUT:
-ITEM_ADDED
-ITEM_ADDED
-TOTAL_DISCOUNT 240.00
-TOTAL_AMOUNT_TO_PAY 2156.00
-
-
-Sample Input/Output 2
-
-INPUT:
-ADD_ITEM NOTEBOOK 3
-ADD_ITEM JACKET 5
-ADD_ITEM PENS 1
-PRINT_BILL
-
-OUTPUT:
-ITEM_ADDED
-ERROR_QUANTITY_EXCEEDED
-ITEM_ADDED
-TOTAL_DISCOUNT 0.00
-TOTAL_AMOUNT_TO_PAY 990.00
-
-
+ 
 
 add_item(item, quantity) is a function that adds a specified quantity of a given item to the shopping cart. 
 If the item is already in the shopping cart, the quantity is added to the existing quantity. If the item is not in the shopping cart, 
