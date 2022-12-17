@@ -117,3 +117,4 @@ while True:
         print_bill()
     elif command == "EXIT":
         break
+
